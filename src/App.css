@@ -1,38 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Libre+Baskerville&display=swap');
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #E9E9E9;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 1.5em;
+}
+
+.navbar {
+
+  width: 1920px;
+  height: 79px;
+
+  background: url(Assets/Navbar.png);
+}
+
+.search {
+  width: 911px;
+  height: 76px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background: #F9F9F9;
+  border-radius: 25px;
 }
 
-.App-link {
-  color: #61dafb;
+.input {
+  width: 196px;
+  height: 36px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  border: none;
+
+  color: #575757;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 1423px;
+  justify-content: space-between;
+}
+
+.separator {
+  width: 1423px;
+  height: 0px;
+  margin: 0;
+  border: 1px solid #000000;
+}
+
+.filter-bar {
+  display: flex;
+  gap: 3em;
+}
+
+.filter-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  margin: 0;
+  color: #000000;
+}
+
+.group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1em;
+}
+
+.flex-gap {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
+.communities {
+  width: 365px;
+  height: 365px;
+
+  background: #FFFFFF;
+  border-radius: 37px;
+}
+
+.leaderboards {
+  width: 365px;
+  height: 287px;
+
+  background: #FFFFFF;
+  border-radius: 37px;
+}
+
+.messages {
+  width: 365px;
+  height: 54px;
+
+  background: #FFFEFE;
+  border-radius: 15px;
+}
+
+.create-post {
+  width: 865px;
+  height: 51px;
+  left: 166px;
+  top: 323px;
+  display: flex;
+  flex-direction: row;
+  background: #FFFDFD;
+}
+
+.create-input {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #000000;
+
+  border: none;
+}
+
+.post {
+  width: 863px;
+  height: 186px;
+
+  background: #F9F9F9;
+  border-radius: 22px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 1em;
+  gap: 1em;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.vote {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.image {
+  margin: auto 10px
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.title-name {
+  margin: 0;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.title-details {
+  margin: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #000000;
+}
+
+.title-label {
+  margin: 0;
+  background-color: #00C213;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #FFFFFF;
+  padding: 2px;
+}
+
+.post-actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1em;
+}
+
+.sidebar-text {
+  margin-bottom: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.sidebar-separator {
+  width: 314px;
+  height: 0px;
+  margin: 0;
+  border: 1px solid #000000;
+}
+
+.award-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.award-name {
+  margin: 0;
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 100;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #000000;
+
+}
+
+.award-time {
+  margin: 0;
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.messages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.message-text {
+  margin: 0;
+}
+
+.img-margin {
+  margin-top: .83em;
 }
