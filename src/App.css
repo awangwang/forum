@@ -21,6 +21,21 @@ body {
   background: url(Assets/Navbar.png);
 }
 
+.ruby {
+  position: absolute;
+  width: 104px;
+  height: 78px;
+  left: 1252px;
+}
+
+.ruby-number {
+  position: absolute;
+  width: 121px;
+  height: 31px;
+  left: 1345px;
+  top: 28px;
+}
+
 .search {
   width: 911px;
   height: 76px;
