@@ -1,0 +1,967 @@
+.App
+{
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+
+  background: #E9E9E9;
+}
+
+@import url('https://rsms.me/inter/inter.css');
+html { 
+  font-family: 'Inter', sans-serif; 
+}
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+.AppHeaderBar
+{
+  position: absolute;
+  width: 1927px;
+  height: 79px;
+  left: -7px;
+  top: 0px;
+
+  background: url(image.png);
+}
+
+.PointIcon
+{
+  position: absolute;
+  width: 104px;
+  height: 78px;
+  left: 1252px;
+  top: 4px;
+  background: url(image7.png);
+}
+
+.Vector
+{
+  position: absolute;
+  width: 121px;
+  height: 31px;
+  left: 1345px;
+  top: 28px;
+
+  background: url(Vector.png);
+}
+
+.Rectangle468
+{
+  position: absolute;
+  width: 911px;
+  height: 76px;
+  left: 531px;
+  top: 113px;
+
+  background: #F9F9F9;
+  border-radius: 25px;
+}
+.TextSearch
+{
+  position: absolute;
+  width: 196px;
+  height: 36px;
+  left: 889px;
+  top: 129px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #575757;
+}
+.SearchVector
+{
+  position: absolute;
+  left: 31.25%;
+  right: 66.89%;
+  top: 12.41%;
+  bottom: 84.29%;
+
+}
+.Line
+{
+  position: absolute;
+width: 1423px;
+height: 0px;
+left: 164px;
+top: 220px;
+
+
+transform: rotate(0.12deg);
+}
+.NewLogo
+{
+position: absolute;
+width: 48px;
+height: 48px;
+left: 164px;
+top: 242px;
+}
+
+
+.New
+{
+  position: absolute;
+  width: 69px;
+  height: 36px;
+  left: 223px;
+  top: 248px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  
+  color: #000000;
+}
+.HotLogo
+{
+  position: absolute;
+  left: 17.4%;
+  right: 80.94%;
+  top: 22.78%;
+  bottom: 73.89%;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.Hot
+{
+  position: absolute;
+  width: 64px;
+  height: 36px;
+  left: 385px;
+  top: 250px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #000000;
+}
+.JoinedLogo
+{
+  /* */
+
+
+position: absolute;
+width: 48px;
+height: 48px;
+left: 479px;
+top: 240px;
+
+}
+.Joined
+{
+  position: absolute;
+width: 110px;
+height: 36px;
+left: 542px;
+top: 248px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+}
+.SavedLogo
+{
+  position: absolute;
+left: 36.25%;
+right: 62.29%;
+top: 22.96%;
+bottom: 73.7%;
+
+}
+
+.Saved
+{
+  position: absolute;
+  width: 98px;
+  height: 36px;
+  left: 745px;
+  top: 246px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  
+  color: #000000;
+}
+
+.NotificationLogo
+{
+/* Vector */
+
+
+position: absolute;
+left: 46.09%;
+right: 52.24%;
+top: 22.87%;
+bottom: 73.52%;
+
+}
+.Notification
+{
+  position: absolute;
+width: 217px;
+height: 30px;
+left: 936px;
+top: 249px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+
+}
+.CreateRound
+{
+  position: absolute;
+  width: 865px;
+  height: 51px;
+  left: 166px;
+  top: 326px;
+  
+}
+.CRPostLogo
+{
+  position: absolute;
+width: 29px;
+height: 29px;
+left: 189px;
+top: 337px;
+}
+.CreatePost
+{
+  position: absolute;
+width: 140px;
+height: 30px;
+left: 235px;
+top: 337px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+}
+
+.CRPostPic
+{
+  position: absolute;
+left: 51.35%;
+right: 47.4%;
+top: 31.39%;
+bottom: 66.39%;
+
+background: #979797;
+}
+.RectPopCom
+{
+  position: absolute;
+  width: 365px;
+  height: 365px;
+  left: 1213px;
+  top: 263px;
+}
+.PopCom
+{
+  position: absolute;
+  width: 243px;
+  height: 24px;
+  left: 1265px;
+  top: 290px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+.LinePopCom
+{
+  position: absolute;
+  width: 314px;
+  height: 0px;
+  left: 1230px;
+  top: 314px;
+
+  transform: rotate(0.19deg);
+}
+.ComList
+{
+  position: absolute;
+width: 268px;
+height: 87px;
+left: 1237px;
+top: 344px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #000000;
+}
+.LBoardRect
+{
+  position: absolute;
+width: 365px;
+height: 287px;
+left: 1213px;
+top: 680px;
+}
+.Leaderboard
+{
+  position: absolute;
+width: 121px;
+height: 24px;
+left: 1337px;
+top: 692px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+}
+
+.LBoardTrophy
+{
+  position: absolute;
+left: 76.56%;
+right: 22.27%;
+top: 64.17%;
+bottom: 33.75%;
+
+}
+.LBoardLine1
+{
+  position: absolute;
+width: 314px;
+height: 0px;
+left: 1240px;
+top: 731px;
+
+transform: rotate(0.19deg);
+}
+.JohnDoe1
+{
+  position: absolute;
+width: 239px;
+height: 156px;
+left: 1310px;
+top: 742px;
+
+font-family: 'Inter';
+font-style: italic;
+font-weight: 100;
+font-size: 30px;
+line-height: 36px;
+
+color: #000000;
+
+}
+.MedalGold
+{
+  position: absolute;
+  width: 215px;
+  height: 115px;
+  left: 1158px;
+  top: 731px;
+
+}
+.TimeLong
+{
+  position: absolute;
+  width: 98px;
+  height: 47px;
+  left: 1466px;
+  top: 751px;
+}
+.TimeMedium
+{
+  position: absolute;
+  width: 98px;
+  height: 47px;
+  left: 1466px;
+  top: 817px;
+}
+.TimeShort
+{
+  position: absolute;
+width: 98px;
+height: 47px;
+left: 1466px;
+top: 883px;
+}
+.JohnDoe2
+{
+  position: absolute;
+width: 239px;
+height: 156px;
+left: 1310px;
+top: 808px;
+}
+.JohnDoe3
+{
+  position: absolute;
+  width: 239px;
+  height: 156px;
+  left: 1310px;
+  top: 873px;
+}
+.LBoardLine2
+{
+  position: absolute;
+width: 314px;
+height: 0px;
+left: 1240px;
+top: 792.02px;
+
+transform: rotate(0.19deg);
+}
+.LBoardLine3
+{
+  position: absolute;
+width: 314px;
+height: 0px;
+left: 1240px;
+top: 857.98px;
+
+transform: rotate(0.19deg);
+}
+.LBoardLine4
+{
+  position: absolute;
+width: 314px;
+height: 0px;
+left: 1240px;
+top: 924.98px;
+
+transform: rotate(0.19deg);
+}
+.MedalSilver
+{
+  position: absolute;
+width: 158px;
+height: 151px;
+left: 1218px;
+top: 722px;
+}
+.MedalBronze
+{
+  position: absolute;
+  width: 166px;
+  height: 149px;
+  left: 1157px;
+  top: 789px;
+}
+.RectDM
+{
+  position: absolute;
+  width: 393px;
+  height: 54px;
+  left: 1199px;
+  top: 1017px;
+
+}
+.DM
+{
+  position: absolute;
+  width: 158px;
+  height: 24px;
+  left: 1237px;
+  top: 1032px;
+}
+.DMArrow
+{
+  position: absolute;
+  width: 32px;
+  height: 14px;
+  left: 1527px;
+  top: 1034px;
+
+}
+.PostRect1
+{
+  position: absolute;
+  width: 863px;
+  height: 186px;
+  left: 168px;
+  top: 421px;
+  
+}
+.PostRect2
+{
+  position: absolute;
+  width: 863px;
+  height: 186px;
+  left: 168px;
+  top: 635px;
+}
+.PostRect3
+{
+  position: absolute;
+  width: 863px;
+  height: 186px;
+  left: 168px;
+  top: 849px;
+}
+.PostUpvote1
+{
+  position: absolute;
+  left: 9.96%;
+  right: 88.45%;
+  top: 41.6%;
+  bottom: 56.65%;
+
+}
+.PostDownvote1
+{
+  position: absolute;
+  left: 9.96%;
+  right: 88.45%;
+  top: 51.73%;
+  bottom: 46.53%;
+
+
+}
+.PostUpvote2
+{
+  position: absolute;
+left: 9.96%;
+right: 88.45%;
+top: 61.42%;
+bottom: 36.84%;
+
+}
+.PostUpvote3
+{
+  position: absolute;
+  left: 9.96%;
+  right: 88.45%;
+  top: 81.23%;
+  bottom: 17.02%;
+}
+.PostDownvote2
+{
+  position: absolute;
+  left: 9.96%;
+  right: 88.45%;
+  top: 71.54%;
+  bottom: 26.71%;
+}
+.PostDownvote3
+{
+  position: absolute;
+  left: 9.96%;
+  right: 88.45%;
+  top: 91.36%;
+  bottom: 6.9%;
+}
+.Extracurriculars
+{
+  position: absolute;
+  width: 148px;
+  height: 24px;
+  left: 241px;
+  top: 442px;
+
+  font-family: 'inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+.PostedBy
+{
+  position: absolute;
+width: 198px;
+height: 19px;
+left: 398px;
+top: 446px;
+
+font-family: 'inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+}
+.StudentGreen
+{
+  position: absolute;
+  width: 95px;
+  height: 19px;
+  left: 607px;
+  top: 446px;
+
+}
+.StudentText
+{
+  position: absolute;
+  width: 64px;
+  height: 13px;
+  left: 626px;
+  top: 446px;
+
+  font-family: 'inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF
+}
+.TimeAgo
+{
+  position: absolute;
+  width: 107px;
+  height: 19px;
+  left: 724px;
+  top: 446px;
+}
+.PostContent
+{
+  position: absolute;
+  width: 630px;
+  height: 24px;
+  left: 241px;
+  top: 492px;
+
+  font-family: 'inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+.ReplyLogo
+{
+  position: absolute;
+  left: 12.48%;
+  right: 86.07%;
+  top: 52.66%;
+  bottom: 45.2%;
+  
+}
+.Reply
+{
+  position: absolute;
+  width: 53px;
+  height: 24px;
+  left: 279px;
+  top: 569px;
+
+  font-family: 'inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+.RepostLogo
+{
+  position: absolute;
+  left: 18.47%;
+  right: 80.08%;
+  top: 52.42%;
+  bottom: 44.74%;
+
+}
+.Repost
+{
+  position: absolute;
+  width: 67px;
+  height: 24px;
+  left: 394px;
+  top: 569px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+.SaveLogo
+{
+  position: absolute;
+  left: 25.35%;
+  right: 73.53%;
+  top: 52.56%;
+  bottom: 44.87%;
+
+}
+
+.Save
+{
+  position: absolute;
+  width: 47px;
+  height: 24px;
+  left: 523px;
+  top: 569px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.SendLogo
+{
+  position: absolute;
+  left: 30.79%;
+  right: 67.53%;
+  top: 52.37%;
+  bottom: 45.06%;
+}
+
+.Send
+{
+  position: absolute;
+  width: 49px;
+  height: 24px;
+  left: 632px;
+  top: 569px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+
+}
+.ReplyLogo2
+{
+  position: absolute;
+  left: 12.48%;
+  right: 86.07%;
+  top: 72.47%;
+  bottom: 25.39%;
+  
+}
+.Reply2
+{
+  position: absolute;
+  width: 53px;
+  height: 24px;
+  left: 279px;
+  top: 783px;
+
+  font-family: 'inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+.RepostLogo2
+{
+  position: absolute;
+  left: 18.47%;
+  right: 80.08%;
+  top: 72.47%;
+  bottom: 25.39%;
+
+}
+.Repost2
+{
+  position: absolute;
+  width: 67px;
+  height: 24px;
+  left: 394px;
+  top: 783px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+.SaveLogo2
+{
+  position: absolute;
+  left: 25.35%;
+  right: 73.53%;
+  top: 72.47%;
+  bottom: 25.39%;
+
+}
+
+.Save2
+{
+  position: absolute;
+  width: 47px;
+  height: 24px;
+  left: 523px;
+  top: 783px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.SendLogo2
+{
+  position: absolute;
+  left: 30.79%;
+  right: 67.53%;
+  top: 72.47%;
+  bottom: 25.39%;
+}
+
+.Send2
+{
+  position: absolute;
+  width: 49px;
+  height: 24px;
+  left: 632px;
+  top: 783px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+
+}
+.ReplyLogo3
+{
+  position: absolute;
+  left: 12.48%;
+  right: 86.07%;
+  top: 92.29%;
+  bottom: 5.57%;
+  
+}
+.Reply3
+{
+  position: absolute;
+  width: 53px;
+  height: 24px;
+  left: 279px;
+  top: 997px;
+
+  font-family: 'inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+.RepostLogo3
+{
+  position: absolute;
+  left: 18.47%;
+  right: 80.08%;
+  top: 92.29%;
+  bottom: 5.57%;
+
+}
+.Repost3
+{
+  position: absolute;
+  width: 67px;
+  height: 24px;
+  left: 394px;
+  top: 997px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+.SaveLogo3
+{
+  position: absolute;
+  left: 25.35%;
+  right: 73.53%;
+  top: 92.29%;
+  bottom: 5.57%;
+
+}
+
+.Save3
+{
+  position: absolute;
+  width: 47px;
+  height: 24px;
+  left: 523px;
+  top: 997px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.SendLogo3
+{
+  position: absolute;
+  left: 30.79%;
+  right: 67.53%;
+  top: 92.29%;
+  bottom: 5.57%;
+}
+
+.Send3
+{
+  position: absolute;
+  width: 49px;
+  height: 24px;
+  left: 632px;
+  top: 997px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+
+}
