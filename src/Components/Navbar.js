@@ -8,9 +8,10 @@ export default function Navbar() {
   
   return (
     <div className='navbar'>
-      <img className='ruby' src={Ruby} alt="ruby" />
-      <h1 className='ruby-number'>{rubyNumber}</h1>
+      <a href="/rubies">
+        <img className='ruby' src={Ruby} alt="ruby" />
+        <h1 className='ruby-number'>{rubyNumber}</h1>
+      </a>
     </div>
-    
   )
 }

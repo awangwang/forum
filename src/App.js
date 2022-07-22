@@ -1,7 +1,7 @@
 import Navbar from './Components/Navbar';
-import Search from './Components/Search';
-import Content from './Components/Content';
-import Sidebar from './Components/Sidebar';
+import Rubies from './Components/Rubies';
+import MainPage from './Components/MainPage'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 
 function App() {
@@ -10,16 +10,13 @@ function App() {
       <header>
         <Navbar />
       </header>
-      <section>
-        <Search />
-      </section>
-      <hr className='separator'/>
-      <section>
-        <div className='container'>
-          <Content />
-          <Sidebar />
-        </div>
-      </section>
+
+      <Router>
+        <Routes>
+          <Route path="/" element={<MainPage/>} />
+          <Route path="/rubies" element={<Rubies/>} />
+        </Routes>
+      </Router> 
     </div>
   );
 }
