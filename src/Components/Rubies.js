@@ -1,6 +1,11 @@
 import React from 'react'
 import Ruby from '../Assets/Ruby.png'
 import Recent from './Recent'
+import Bookmark from '../Assets/Bookmark.png'
+import Arrow from '../Assets/Arrow.png'
+import Bubble from '../Assets/Bubble.png'
+import Created from '../Assets/Created.png'
+import Community from '../Assets/Community.png'
 
 export default function Rubies() {
   return (
@@ -19,11 +24,36 @@ export default function Rubies() {
 
       <div className='ruby-content'>
         <h2 className='ruby-recently-earned'>Recently Earned</h2>
-        <Recent />
-        <Recent />
-        <Recent />
-        <Recent />
-        <Recent />
+        <Recent 
+          image={Bookmark} 
+          text="You saved someone's post!" 
+          count="1" 
+          date="7/21/22"
+        />
+        <Recent 
+          image={Arrow} 
+          text="You upvoted someone's post!" 
+          count="1" 
+          date="7/15/22"
+        />
+        <Recent 
+          image={Bubble} 
+          text="You answered someone's question!" 
+          count="2" 
+          date="7/10/22"
+        />
+        <Recent 
+          image={Created} 
+          text="You created a new post!" 
+          count="3" 
+          date="6/25/22"
+        />
+        <Recent 
+          image={Community} 
+          text="You joined a community!" 
+          count="5" 
+          date="6/10/22"
+        />
       </div>
     </div>
   )
