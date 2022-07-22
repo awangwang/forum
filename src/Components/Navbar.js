@@ -8,8 +8,10 @@ export default function Navbar() {
   
   return (
     <div className='navbar'>
-      <img className='ruby' src={Ruby} alt="ruby" />
+      <div></div>
       <h1 className='ruby-number'>{rubyNumber}</h1>
+      <img className='ruby' src={Ruby} alt="ruby" />
+      <div></div>
     </div>
     
   )
