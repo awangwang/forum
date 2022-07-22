@@ -1,0 +1,41 @@
+.LeaderboardPopUp{
+    box-sizing: border-box;
+    display: flex;
+    position:absolute;
+    top:190px;
+    justify-content: center;
+    align-items: center;
+    width: 1185.91px;
+    height: 765px;
+    background: #EFEFEF;
+    border: 1px solid #000000;
+  }
+  
+  .LeaderboardHeader{
+    position:absolute;
+    display:flex;
+    top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    text-decoration-line: underline;
+    color: #0B0707;
+  }
+  
+  .LeaderboardLeader{
+  
+  }
+  
+  .LeaderboardStatics{
+    position:absolute;
+    display:flex;
+    left: 80px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    text-decoration-line: underline;
+  }
