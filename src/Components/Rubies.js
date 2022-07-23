@@ -7,17 +7,17 @@ import Bubble from '../Assets/Bubble.png'
 import Created from '../Assets/Created.png'
 import Community from '../Assets/Community.png'
 
-export default function Rubies() {
+export default function Rubies({rubyCount}) {
   return (
     <div className='ruby-page'>
       <div className='ruby-navbar'>
         <button className='ruby-button'>Visit Ruby Store</button>
         <div className='ruby-title'>
           <h2 className='ruby-title-text'>My Kyros Rubies</h2>
-          <a className='ruby-title-about' href="">About Kyros Rubies</a>
+          <a className='ruby-title-about' href="/">About Kyros Rubies</a>
         </div>
         <button className='ruby-button'>
-          <h2>#</h2>
+          <h2>{rubyCount}</h2>
           <img src={Ruby} alt="ruby" />
         </button>
       </div>
