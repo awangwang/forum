@@ -2,9 +2,7 @@ import Navbar from './Components/Navbar';
 import Search from './Components/Search';
 import Content from './Components/Content';
 import Sidebar from './Components/Sidebar';
-import LeaderboardPopUp from './Components/LeaderboardPopUp';
 import './App.css';
-import './PopUp2.css';
 
 function App() {
   return (
@@ -22,7 +20,6 @@ function App() {
           <Sidebar />
         </div>
       </section>
-      <LeaderboardPopUp />
     </div>
   );
 }
