@@ -1,8 +1,8 @@
 import React from 'react'
 import Clock from '../Assets/Clock.png'
 import Trophy from '../Assets/Trophy.png'
-import Popup from './LeaderboardsPopup/Popup.js'
-import './LeaderboardsPopup/Popup.css';
+import Popup from './Leaderboards-Popup/Popup.js'
+import './Leaderboards-Popup/Popup.css';
 import { useState } from 'react';
 
 export default function Leaderboards() {
