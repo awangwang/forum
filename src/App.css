@@ -36,15 +36,18 @@ html {
   background: url(image7.png);
 }
 
-.Vector
-{
-  position: absolute;
-  width: 121px;
-  height: 31px;
+.ruby-number {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 30px;
+  color: maroon;
+  border: none;
+  position:absolute;
   left: 1345px;
   top: 28px;
-
-  background: url(Vector.png);
+  align-self: center;
 }
 
 .Rectangle468
@@ -963,5 +966,43 @@ line-height: 19px;
   line-height: 24px;
 
   color: #000000;
+
+}
+
+.textcenter
+{
+  text-align: center;
+}
+
+.rubypopup
+{
+  position: absolute;
+  width: 48.68px;
+  height: 74.03px;
+  left: 430.55px;
+  top: 300.06px;
+}
+.rubynumber1
+{
+  position: absolute;
+  left: 446.55px;
+  top: 345.06px;
+  font-size: 25px;
+  color:#FFFFFF;
+}
+
+.day1
+{
+  position: absolute;
+  left: 423.55px;
+  top: 400.06px;
+  font-size: 25px;
+}
+
+.rubypopupsquare
+{
+  position: absolute;
+  left: 390.55px;
+  top: 270.06px;
 
 }
