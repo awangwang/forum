@@ -1,19 +1,19 @@
 import React from 'react'
-import { FaIcons } from 'react-icons/fa'
-import './ShopItem.css'
 import Ruby from '../Assets/Ruby.png'
+import Background from '../Assets/Background.png'
 
 const ShopItem = (props) => {
   return (
     <div className="item-frame">
-        <FaIcons className="item-image"></FaIcons>
-        <div>
-            <span className="item-name">{props.itemName}</span>
-        </div>
-        <button className='ruby-button' style={{right: 0}} >
-            <h2>1234</h2>
-            <img src={Ruby} alt="ruby"></img>
-        </button>
+      <img src={Background} alt="Image" className='item-image'/>
+      <div className='item-text'>
+        <h2>{props.description}</h2>
+        <a className='ruby-title-about' href="">View on full screen</a>
+      </div>
+      <button className='ruby-button'>
+        <h2>{props.count}</h2>
+        <img src={Ruby} alt="ruby"></img>
+      </button>
     </div>
   )
 }

@@ -60,11 +60,10 @@ export default function Rubies({rubyCount}) {
           date="6/10/22"
         />
       </div>
-
-      <RubyShop trigger={shopOpen} setTrigger={setShopOpen}>
-        <ShopItem itemName="Custom Home Page 1"/>
+      <RubyShop 
+        trigger={shopOpen} 
+        setTrigger={setShopOpen}>
       </RubyShop>
-
     </div>
   )
 }
