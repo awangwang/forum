@@ -11,7 +11,7 @@ import ShopItem from './ShopItem'
 import { useState } from 'react'
 
 export default function Rubies({rubyCount}) {
-  const [shopOpen, setShopOpen] = useState(true)
+  const [shopOpen, setShopOpen] = useState(false)
 
   return (
     <div className='ruby-page'>
