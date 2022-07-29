@@ -14,7 +14,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 40vh;
+        /* height: 65vh; */
+        height: em
 }
 
 .board {
@@ -28,7 +29,7 @@
 .board .duration{
     display: flex;
     justify-content: center;
-    gap: 1em;
+    gap: 2em;
 }
 
 .board .duration > button{
