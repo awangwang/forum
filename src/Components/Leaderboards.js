@@ -3,6 +3,9 @@ import Clock from '../Assets/Clock.png'
 import Trophy from '../Assets/Trophy.png'
 
 
+import Board from './Popup/board'
+import './Popup/style.css'
+
 import Popup from './Popup/Popup.js'
 import './Popup/Popup.css';
 
@@ -37,13 +40,13 @@ const[buttonPopup, setButtonPopup] = useState(false);
       </div>
       <hr className="sidebar-separator" />
       <Popup trigger = {buttonPopup} setTrigger={setButtonPopup}>
-      <div className='leaderboard-popup'>
-            <h2 className='leaderboard-header'>Leaderboard</h2>
-            <h3 className='leaderboard-statistics' style={{top:'120px', color: 'gold'}}>1</h3>
-            <h3 className='leaderboard-statistics' style={{top:'250px', color: 'silver'}}>2</h3>
-            <h3 className='leaderboard-statistics' style={{top:'380px', color:'#CD7F32'}}>3</h3>
-            <h3 className='leaderboard-statistics' style={{top:'510px', color: 'gray'}}>4</h3>
-        </div>
+
+      
+      <div className="App" id='main'>
+        <Board></Board>
+    </div>  
+
+    
       </Popup>
     </div>
   )
