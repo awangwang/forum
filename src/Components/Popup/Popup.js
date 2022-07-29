@@ -1,5 +1,5 @@
 import './Popup.css'
-import Board from './board'
+
 import './style.css'
 
 function Popup(props) {
@@ -12,9 +12,7 @@ function Popup(props) {
             <button onClick={() => props.setTrigger(false)} className="close-btn">Exit</button>
             
             { props.children }
-            <div className="App" id='main'>
-        <Board></Board>
-    </div>  
+            
 
     
         </div>
