@@ -1006,3 +1006,70 @@ line-height: 19px;
   top: 270.06px;
 
 }
+.Largepic
+{
+  position: absolute;
+width: 187px;
+height: 178px;
+left: 30px;
+top: 10px;
+border-radius: 3.32338e+13px;
+}
+.AboutText
+{
+  position: absolute;
+width: 1047px;
+height: 110px;
+left: 50px;
+top: 200px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 41.199px;
+line-height: 50px;
+
+}
+.AboutText2
+{
+  position: absolute;
+width: 1047px;
+height: 110px;
+left: 50px;
+top: 350px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 50px;
+
+}
+.AboutName
+{
+  position: absolute;
+  left:250px;
+  top:10px;
+  font-weight: 500;
+  font-size:50px;
+}
+.rectabout
+{
+  position: absolute;
+  width: 1243px;
+  height: 219px;
+  left: 20px;
+  top: 15px;
+
+  background: #27751A;
+  border-radius: 40px;
+}
+
+.Joinedinfo
+{
+  position: absolute;
+  left:250px;
+  top:130px;
+  font-weight: 500;
+  font-size:25px;
+}

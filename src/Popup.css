@@ -9,13 +9,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color:white;
 }
 .popup-inner {
-    position: relative;
-    padding: 32px;
-    width: 861px;
-    height: 619px;
-    background-color: #fff;
+    position: absolute;
+    width: 1289px;
+    height: 633px;
+    left: 380px;
+    top: 222px;
+
+    background: #152332;
+    border-radius: 30px;
 }
 
 .popup-inner .close-btn {

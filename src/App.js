@@ -1,51 +1,52 @@
 import './App.css';
 import Popup from './Popup'
 import { useEffect, useState } from 'react'
-var x = 0;
+// var x = 0;
 function App() {
-  const [timedPopup, setTimedPopup] = useState(false);
-  const sleep = ms => new Promise(r => setTimeout(r, ms));
+  const [buttonPopup, setButtonPopup] = useState(false);
+//   const [timedPopup, setTimedPopup] = useState(false);
+//   const sleep = ms => new Promise(r => setTimeout(r, ms));
 
 
 
-  setTimeout(() => {
-    setTimedPopup(true);
-  }, x=x+0.125, 5000);
-var rubynumber = 1000;
-var add = 0;
-var prev = 0;
-if (Math.round(x)==1)
-{
-  add=1;
-} else if (Math.round(x)==2)
-{
-  prev=1;
-  add=2;
-} else if (Math.round(x)==3)
-{
-  prev=3;
-  add=3;
-} else if (Math.round(x)==4)
-{
-  prev=6;
-  add=5;
-} else if (Math.round(x)==5)
-{
-  prev=11;
-  add=8;
-} else if (Math.round(x)==6)
-{
-  prev=19;
-  add=13;
-} else if (Math.round(x)==7)
-{
-  prev=32;
-  add=20;
-}
-  rubynumber+=prev
-  rubynumber+=add;
+//   setTimeout(() => {
+//     setTimedPopup(true);
+//   }, x=x+0.125, 5000);
+// var rubynumber = 1000;
+// var add = 0;
+// var prev = 0;
+// if (Math.round(x)==1)
+// {
+//   add=1;
+// } else if (Math.round(x)==2)
+// {
+//   prev=1;
+//   add=2;
+// } else if (Math.round(x)==3)
+// {
+//   prev=3;
+//   add=3;
+// } else if (Math.round(x)==4)
+// {
+//   prev=6;
+//   add=5;
+// } else if (Math.round(x)==5)
+// {
+//   prev=11;
+//   add=8;
+// } else if (Math.round(x)==6)
+// {
+//   prev=19;
+//   add=13;
+// } else if (Math.round(x)==7)
+// {
+//   prev=32;
+//   add=20;
+// }
+//   rubynumber+=prev
+//   rubynumber+=add;
 
-  console.log(x);
+//   console.log(x);
   return (
     
     <div className="App">
@@ -58,7 +59,8 @@ if (Math.round(x)==1)
         </div>
         
         <div className="ruby-number">
-         {rubynumber} 
+         {/* {rubynumber}  */}
+         1000
           </div>
         <div className="Rectangle468">
           <img src={require("./Rectangle468.png")} />
@@ -214,7 +216,7 @@ if (Math.round(x)==1)
         Extracurriculars
         </div>
         <div className="PostedBy">
-        Posted by Sharon Mitchell
+        Posted by <button onClick={()=>setButtonPopup(true)}>Sharon Mitchell</button>
         </div>
         <div className="StudentGreen">
         <img src={require("./StudentGreen.png")} />
@@ -300,13 +302,30 @@ if (Math.round(x)==1)
         <div className="Send3">
           Send
         </div>
-        <Popup trigger={timedPopup} setTrigger={setTimedPopup}>
+        {/* <Popup trigger={timedPopup} setTrigger={setTimedPopup}>
           <h1 className="textcenter"><u>Daily Login</u></h1>
         <h3><img className="rubypopupsquare" src={require("./Popupsquare.png")} /></h3>
         <h3><img className="rubypopup" src={require("./rubypopup.png")} /></h3>
         <h3 className="rubynumber1">{Math.round(add)}</h3>
         <h3 className="day1">Day {Math.round(x)}</h3>
+      </Popup> */}
+      <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+      <div className="rectabout"></div>
+      <img className="Largepic" src={require("./JoinedLogo.png")}/>
+        <h1 className="AboutName">Sharon Mitchell</h1>
+        <h1 className="Joinedinfo">Joined: March 6, 2417<br></br>Class of 1776</h1>
+      <h2 className="AboutText">
+        About me:<br></br>
+
+I love anime and Shrek. I especially love anime Shrek
+
+      </h2>
+      <h3 className="AboutText2">
+      Karma: -1234567890<br></br>
+Rubies: 4
+      </h3>
       </Popup>
+
     </div>
   );
 }
