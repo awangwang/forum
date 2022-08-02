@@ -7,10 +7,9 @@ import Bubble from '../Assets/Bubble.png'
 import Created from '../Assets/Created.png'
 import Community from '../Assets/Community.png'
 import RubyShop from './RubyShop'
-import ShopItem from './ShopItem'
 import { useState } from 'react'
 
-export default function Rubies({rubyCount}) {
+export default function Rubies({rubyCount, setRubyCount}) {
   const [shopOpen, setShopOpen] = useState(false)
 
   return (
@@ -62,7 +61,9 @@ export default function Rubies({rubyCount}) {
       </div>
       <RubyShop 
         trigger={shopOpen} 
-        setTrigger={setShopOpen}>
+        setTrigger={setShopOpen}
+        rubyCount={rubyCount}
+        setRubyCount={setRubyCount}>
       </RubyShop>
     </div>
   )

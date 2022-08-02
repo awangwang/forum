@@ -336,6 +336,7 @@ body {
   justify-content: center;
   gap: 1em;
   color: #FFFFFF;
+  cursor: pointer;
 }
 
 .ruby-page {

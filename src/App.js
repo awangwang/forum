@@ -2,10 +2,11 @@ import Navbar from './Components/Navbar';
 import Rubies from './Components/Rubies';
 import MainPage from './Components/MainPage'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { useState } from 'react'
 import './App.css';
 
 function App() {
-  const rubyCount = 1000;
+  const [rubyCount, setRubyCount] = useState(1000);
 
   return (
     <div className="App">
@@ -16,7 +17,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<MainPage/>} />
-          <Route path="/rubies" element={<Rubies rubyCount={rubyCount}/>} />
+          <Route path="/rubies" element={<Rubies rubyCount={rubyCount} setRubyCount={setRubyCount}/>} />
         </Routes>
       </Router> 
     </div>

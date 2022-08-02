@@ -10,7 +10,7 @@ const ShopItem = (props) => {
         <h2>{props.description}</h2>
         <a className='ruby-title-about' href="">View on full screen</a>
       </div>
-      <button className='ruby-button'>
+      <button className='ruby-button' onClick={() => props.setRubyCount(props.count + props.rubyCount)}>
         <h2>{props.count}</h2>
         <img src={Ruby} alt="ruby"></img>
       </button>
