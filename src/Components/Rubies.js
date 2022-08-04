@@ -9,7 +9,7 @@ import Community from '../Assets/Community.png'
 import RubyShop from './RubyShop'
 import { useState } from 'react'
 
-export default function Rubies({rubyCount, setRubyCount}) {
+export default function Rubies({rubyCount, setRubyCount, purchasedItems, setPurchasedItems}) {
   const [shopOpen, setShopOpen] = useState(false)
 
   return (
@@ -63,8 +63,9 @@ export default function Rubies({rubyCount, setRubyCount}) {
         trigger={shopOpen} 
         setTrigger={setShopOpen}
         rubyCount={rubyCount}
-        setRubyCount={setRubyCount}>
-      </RubyShop>
+        setRubyCount={setRubyCount}
+        purchasedItems={purchasedItems}
+        setPurchasedItems={setPurchasedItems} />
     </div>
   )
 }

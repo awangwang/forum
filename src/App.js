@@ -7,6 +7,7 @@ import './App.css';
 
 function App() {
   const [rubyCount, setRubyCount] = useState(1000);
+  const [purchasedItems, setPurchasedItems] = useState({});
 
   return (
     <div className="App">
@@ -17,7 +18,16 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<MainPage/>} />
-          <Route path="/rubies" element={<Rubies rubyCount={rubyCount} setRubyCount={setRubyCount}/>} />
+          <Route path="/rubies"
+           element={
+            <Rubies 
+              rubyCount={rubyCount}
+              setRubyCount={setRubyCount}
+              purchasedItems={purchasedItems}
+              setPurchasedItems={setPurchasedItems}
+            />
+            } 
+          />
         </Routes>
       </Router> 
     </div>

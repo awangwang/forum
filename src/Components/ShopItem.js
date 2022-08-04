@@ -5,13 +5,15 @@ import { useState } from 'react'
 
 const ShopItem = (props) => {
   // props.count = price of item
-  let [purchased, setPurchased] = useState(false)
-
+  
+  let [purchased, setPurchased] = useState(props.purchasedItems.hasOwnProperty(props.description))
+  
   const purchaseItem = () => {
     if (purchased) {
       return
     }
     props.setRubyCount(props.count + props.rubyCount)
+    props.purchaseItem(props.description)
     setPurchased(true)
   }
 
